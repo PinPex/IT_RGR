@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+</head>
+
+<body style="background-image: url(3.jpg)">
+	<div style="margin-top: 20px; margin-left: 50px">
+		<center>
+			<font color="white" face="Comic Sans MS">
+				<big>Программирование компьютерных игр это чрезвычайно интересный процесс, ведь в конце получается результат, в который можно поиграть, а так же отдохнуть от написания кода.
+				<br>Однако это очень тяжёлый процесс, поэтому многие игры перешли с написания игры полностью на так называемые "движки", которые позволяют не писать игру заново, а лишь её совершенствовать при помощи дизайна.
+				<br>В ходе обучения по этому направлению я познакомлю вас с основными принципами построения "движков" и с самыми яркими современными представителями
+				<br>Заполните форму, чтобы я мог с вами связаться.
+				</big>
+			</font>
+			
+		</center>
+	</div>
+	
+	<center>
+			<div class="form-wrap">
+	  <div class="profile">
+		<font color="white"><h1>Регистрация</h1></font>
+	  </div>
+	  <form method="post" action="send.php">
+		<div>
+		  <label for="name">Имя</label>
+		  <input type="text" name="name" required>
+		</div>
+		<div class="radio">
+		  <span>Пол</span>
+		  <label>
+			<input type="radio" name="sex" value="мужской">мужской
+			<div class="radio-control male"></div>
+		  </label>
+		  <label>
+			<input type="radio" name="sex" value="женский">женский
+			<div class="radio-control female"></div>
+		  </label>
+		</div>
+		<div>
+		  <label for="email">E-mail</label>
+		  <input type="email" name="email" required>
+		</div>
+		<div>
+		  <label for="country">Страна</label>
+		  <select name="country">
+			<option>Выберите страну проживания</option>
+			<option value="Россия">Россия</option> 
+			<option value="Украина">Украина</option> 
+			<option value="Беларусь">Беларусь</option> 
+		  </select> 
+		  <div class="select-arrow"></div> 
+		</div> 
+		<button type="submit">Отправить</button> 
+	  </form> 
+	</div>
+	</center>
+	
+</body>
+</html>

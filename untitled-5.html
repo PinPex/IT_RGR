@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Документ без названия</title>
+
+</head>
+
+<body style="background-image: url(3.jpg)">
+	<div style="margin-top: 20px; margin-left: 50px">
+		<center>
+			<font color="white" face="Comic Sans MS">
+				<big>бла бла бла
+				</big>
+			</font>
+			
+		</center>
+	</div>
+	
+	<center>
+	<div class="form-wrap" >
+	  <div class="profile">
+		<font color="white"><h1>Регистрация</h1></font>
+	  </div>
+	  <form method="post" action="send.php">
+		<div>
+		  <label for="name"><font color="white">Имя</font></label>
+		  <input type="text" name="name" required>
+		</div>
+		<div class="radio">
+		  <span><font color="white">Пол</font></span>
+		  <label>
+			<input type="radio" name="sex" value="мужской"><font color="white">мужской</font>
+			<div class="radio-control male"></div>
+		  </label>
+		  <label>
+			<input type="radio" name="sex" value="женский"><font color="white">женский</font>
+			<div class="radio-control female"></div>
+		  </label>
+		</div>
+		<div>
+		  <label for="email"><font color="white">E-mail</font></label>
+		  <input type="email" name="email" required>
+		</div>
+		<div>
+		  <label for="country"><font color="white">Страна</font></label>
+		  <select name="country">
+			<option>Выберите страну проживания</option>
+			<option value="Россия">Россия</option> 
+			<option value="Украина">Украина</option> 
+			<option value="Беларусь">Беларусь</option> 
+		  </select> 
+		  <div class="select-arrow"></div> 
+		</div> 
+		<button type="submit">Отправить</button> 
+	  </form> 
+		
+	</div>
+	</center>
+	
+</body>
+</html>

@@ -4,76 +4,145 @@
 </head>
 <body>
     <style>
-       .koguvcavis-varazdel {
-  padding: 38px 0;
-  background: #adadad;
-  color: #2f2f2f;
+    *{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  padding: 40px 0;
+  background: #c5c5c5;
+  color: #434343;
   text-align: center;
 }
-.sestim-donials{
+.inner{
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
   padding: 0 20px;
 }
 
+.border{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.stars{
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:960px) {
+.col{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col{
+  flex: 100%;
+  max-width: 100%;
+}
+}
+
     </style>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     
-    
-    <div class="koguvcavis-varazdel">
-  <div class="sestim-donials">
-  <h1>Отзывы</h1>
-  <div class="sectionesag"></div>
-  <div class="sagestim-lonials">
-  <div class="vemotau-vokusipol">
-  <div class="testimonial">
-  <img src="http://zornet.ru/_fr/83/7890600.jpg" alt="">
-  <div class="gecedanam">Антон Попов</div>
-  <div class="apogered-gselected">
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  </div>
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
 
-  <p>Здесь первое описание. Продолжение.</p>
-  </div>
-  </div>
+    <div class="testimonials">
+      <div class="inner">
+        <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отзывы</font></font></h1>
+        <div class="border"></div>
 
-  <div class="vemotau-vokusipol">
-  <div class="testimonial">
-  <img src="http://zornet.ru/_fr/83/2047084.jpg" alt="">
-  <div class="gecedanam">Дмитрий Атрохов</div>
-  <div class="apogered-gselected">
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="far fa-star"></i>
-  <i class="far fa-star"></i>
-  </div>
 
-  <p>Второй отзыв. Его продолжение.</p>
-  </div>
-  </div>
+ <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="http://zornet.ru/_fr/83/9865573.jpg" alt="">
+              <div class="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Полное имя</font></font></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
 
-  <div class="vemotau-vokusipol">
-  <div class="testimonial">
-  <img src="http://zornet.ru/_fr/83/5640570.jpg" alt="">
-  <div class="gecedanam">Каспер Волков</div>
-  <div class="apogered-gselected">
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="fas fa-star"></i>
-  <i class="far fa-star"></i>
-  </div>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Lorem Ipsum - просто фиктивный текст в полиграфии и вёрстке. </font><font style="vertical-align: inherit;">Lorem Ipsum был стандартным фиктивным текстом в индустрии с 1500-х годов,
+              </font></font></p>
+            </div>
+          </div>
 
-  <p>Третье описание. На отзыв.
-  </p>
-  </div>
-  </div>
-  </div>
+          <div class="col">
+            <div class="testimonial">
+              <img src="http://zornet.ru/_fr/83/7779370.jpg" alt="">
+              <div class="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Полное имя</font></font></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Lorem Ipsum - просто фиктивный текст в полиграфии и вёрстке. </font><font style="vertical-align: inherit;">Lorem Ipsum был стандартным фиктивным текстом в индустрии с 1500-х годов,
+              </font></font></p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="http://zornet.ru/_fr/83/9676618.jpg" alt="">
+              <div class="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Полное имя</font></font></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Lorem Ipsum - просто фиктивный текст в полиграфии и вёрстке. </font><font style="vertical-align: inherit;">Lorem Ipsum был стандартным фиктивным текстом в индустрии с 1500-х годов,
+              </font></font></p>
+            </div>
+          </div>
+        </div>
+
+
+  
 
 </body>
 </html>
